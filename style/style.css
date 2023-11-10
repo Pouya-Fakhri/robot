@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.part-1{
+    width: 100%;
+    height: 850px;
+    background: linear-gradient(180deg, #0EA293, #F5F3C1);
+}
+.text{
+    color: white;
+}
+header *{
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+header h3{
+    margin-left: 60px;
+}
+.ferst-nav{
+    position: absolute;
+    left: 450px;
+}
+.last-nav{
+    position: absolute;
+    right: 60px;
+    top: -5px;
+}
+header ul button{
+    width: 65px;
+    height: 35px;
+    border: solid 2px white;
+    border-radius: 2px;
+    background: linear-gradient(80deg, #C70039, #F8DE22);
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.button{
+    border: solid 2px white;
+    color: white;
+    border-radius: 2px;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+    background: linear-gradient(80deg, #C70039, #F8DE22);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.hero div h1{
+    position: absolute;
+    font-size: 40px;
+    left: 438px;
+    top: 75px;
+    margin: 10px;
+    width: 380px;
+    font-size: 35.4px;
+}
+.titel-text{
+    text-align: center;
+}
+.titel-text-p{
+    width: 340px;
+    position: absolute;
+    left: 465px;
+    top: 200px;
+    text-align: center;
+}
+.hero button{
+    position: absolute;
+    left: 560px;
+    top: 260px;
+}
+.hero img{
+    width: 700px;
+    position: absolute;
+    left: 295px;
+    top: 320px;
+}
+.hero .text-black{
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 480px;
+    top: 700px;
+    font-size: 23px;
+}
+.hero .text-black-p{
+    width: 340px;
+    text-align: center;
+    position: absolute;
+    left: 450px;
+    top: 765px;
+}
+.row{
+    width: 100%;
+    height: 220px;
+    background-color: #0f9285;
+    padding: 30px;
+    font-size: 15px;
+}
+.row .box{
+    display: inline-block;
+    width: 370px;
+    height: 150px;
+    margin-left: 30px;
+    background-color: #ffffff2d;
+    border-radius: 10px;
+    padding: 10px;
+}
+.row .box-icon{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.icon-1{
+    background: linear-gradient(80deg, #FF0032, #6F1AB6);
+}
+.icon-2{
+    background: linear-gradient(80deg, #0E21A0, #9400FF);
+}
+.icon-3{
+    background: linear-gradient(80deg, #FFC436, #9400FF);
+}
+
+.row .box h3{
+    width: 200px;
+}
+.row .box p{
+    width: 250px;
+    margin-left: 50px;
+    margin-top: -10px;
+    text-align: left;
+}
+
+.part-2{
+    background: linear-gradient(180deg, #F5F3C1, #0EA293);
+    padding: 30px;
+}
+.cart{
+    width: 540px;
+    height: 250px;
+    margin: 50px;
+}
+.cart-1 img{
+    width: 200px;
+    float: left;
+}
+.text-box *{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    margin: 5px;
+}
+.cart-1 h2{
+    width: 500px;
+}
+.cart-1 p{
+    width: 450px;
+    font-size: 10px;
+    text-align: left;
+}
+
+.cart-2{
+    position: relative;
+    left: 650px;
+}
+.cart-2 img{
+    width: 200px;
+    float: right;
+}
+.cart-2 p{
+    width: 260px;
+    font-size: 10px;
+    text-align: left;
+}
+
+.end-box{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    padding-left: 10px;
+    border: solid 2px white;
+    background-color: #37a398;
+}
+.end-box img{
+    position: relative;
+    top: 108px;
+    float: left;
+    width: 200px;
+}
+.end-box h2 , p ,button{
+    text-align: center;
+    margin: 10px;
+}
+.end-box h2{
+    width: 600px;
+    position: relative;
+    top: 55px;
+}
+.end-box p{
+    width: 600px;
+    position: relative;
+    top: 60px;
+}
+.end-box button{
+    position: relative;
+    top: 65px;
+    left: 140px;
+}
+
+.robot{
+    display: inline-block;
+    width: 245px;
+    margin: 50px;
+    margin-left: 100px;
+}
+.text-robot{
+    width: 250px;
+    font-size: 13px;
+    color: white;
+    text-align: left;
+    margin: 0px;
+}
+.robot button{
+    border: solid 2px white;
+    color: white;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: linear-gradient(80deg, #C70039, #F8DE22);
+}
+.robot *{
+    margin-bottom: 10px;
+}
+.medya{
+    font-size: 16px;
+    padding: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.end-list{
+    display: inline-block;
+    margin-top: 60px;
+}
+.end-list ul{
+    display: inline-block;
+    margin: 30px;
+}
+.end-list li{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.end-text{
+    color: white;
+    font-size: 10px;
+    margin: 30px;
+}
